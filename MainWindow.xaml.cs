@@ -67,6 +67,11 @@ namespace BiliCord
             {
                 State = "Watching Bilibili",
                 Details = "Watching Bilibili",
+                Assets = new Discord.ActivityAssets
+                {
+                    LargeImage = "bilibili",
+                    LargeText = "Watching Bilibili",
+                }
             };
             Trace.WriteLine("Discord Rich Presence Initialised");
             activityManager.UpdateActivity(activity, (res) =>
@@ -185,6 +190,11 @@ namespace BiliCord
             {
                 State = BV,
                 Details = new_title,
+                Assets = new Discord.ActivityAssets
+                {
+                    LargeImage = "bilibili",
+                    LargeText = "Watching Bilibili",
+                }
             };
             updateActivity(activity);
 

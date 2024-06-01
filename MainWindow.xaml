@@ -6,7 +6,7 @@
         xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
         xmlns:local="clr-namespace:BiliCord"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1080" Width="1920">
+        Title="BiliCord" Height="1080" Width="1920">
     <Window.CommandBindings>
         <CommandBinding Command="NavigationCommands.BrowseBack" Executed="BrowseBack_Executed"/>
     </Window.CommandBindings>
